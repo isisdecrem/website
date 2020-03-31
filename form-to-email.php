@@ -16,14 +16,14 @@ if(empty($name) || empty($visitor_email))
 	exit;
 }
 
-$email_from = 'anushkashah654@gmail.com';
+$email_from = 'isisdecrem@gmail.com';
 $email_subject = "New Form Submission";
 $email_body = "You have recieved a new message from the user $name. \n".
-	"email address: $visitor_email \n".
-	"Here is the subject: $subject \n".
-	"Here is the message: $message".
+	"email address: $visitor_email\n".
+	"Here is the subject: $subject\n".
+	"Here is the message: \n $message".
 
-$to = "anushkashah654@gmail.com";
+$to = "isisdecrem@gmail.com";
 $headers = "From: $email_from \r\n";
 
 //Send the email
