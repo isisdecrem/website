@@ -287,20 +287,25 @@
  	
 
  </div> 
-<form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
+<form name="contact" methof ="POST" data-netlify="true">
 
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-  	<button type="submit">Send</button>
-  </p>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Example select</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Private Lesson Inquiry</option>
+      <option>Camp Inquiry</option>
+      <option>I want to join the team</option>
+      <option>Other</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Example textarea</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
 </form>
 <!--- End Contact Section -->
 
