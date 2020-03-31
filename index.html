@@ -286,30 +286,27 @@
  
  	
 
- </div> 
-<form name="contact" methof ="POST" data-netlify="true">
-
-  <div class="form-group">
-    <label for="exampleFormControlInput1">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlSelect1">Example select</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-      <option>Private Lesson Inquiry</option>
-      <option>Camp Inquiry</option>
-      <option>I want to join the team</option>
-      <option>Other</option>
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Messgae</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-
-  <button type="submit" class="btn btn-default">Submit</button>
+<div class="panel-body">
+ <form name = "contact" action="" method="post" role="form" data-netlify="true"> 
+ 	<label for="contactname">Name</label>
+ 	<input type="text" class="form-control" name="contactname" placeholder="Enter Name">
+ </div>
+ <div class="form-group">
+ 	<label for="contactemail">Email Address</label>
+ 	<input type="email" class="form-control" name="contactemail" placeholder="Enter Email">
+ </div>
+ <div class="form-group">
+ 	<label for="contactsubject">Subject</label>
+ 	<input type="text" class="form-control" name="contactsubject" placeholder="Enter Subject">
+ </div>
+ <div class="form-group">
+ 	<label for="contactmessage">Message</label>
+ 	<textarea class="form-control" name="contantmessage" rows="6"></textarea>
+ </div>
+ <button type="submit" class="btn btn-default">Submit</button>
 
 </form>
+</div>
 <!--- End Contact Section -->
 
 
