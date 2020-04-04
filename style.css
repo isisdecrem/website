@@ -199,6 +199,9 @@ h3.heading{
   font-weight: 700;
 }
 
+.narrow img{
+    width: 70%;
+}
 
 /*--- staff --*/ 
 .staff img{
