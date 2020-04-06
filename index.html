@@ -154,22 +154,17 @@
     <p> We are in the process of picking out dates and times for our summer camp sessions. Please note that assuming it is not safe to meet in person, we will do discounted Zoom camp sessions. To let us know your date/time preferences, please fill out the form below. This form does not take into account specific date/time combinations. We will choose sessions based on overall date/time popularity. We are also testing course popularity, so please select the course you or your child is most excited about. If you have any questions, concerns, or dates you'd prefer please <a class = "btn" href="#contact">contact us</a></p>
 </div>
 <form name = "dates" method="post" action="" role="form" data-netlify="true">
-    <div class = "form-check">
-        <input class = "form-check-input" type = "checkbox" value = "" name = "date1">
-        <label class = "form-check-label" for = "date1">June 15 - June 26th</label>
-    </div> 
-    <div class = "form-check">
-        <input class = "form-check-input" type = "checkbox" value = "" name = "date2">
-        <label class = "form-check-label" for = "date2">July 13 - July 24</label>
-    </div> 
-    <div class = "form-check">
-        <input class = "form-check-input" type = "checkbox" value = "" name = "date3">
-        <label class = "form-check-label" for = "date3">July 20 - July 21</label>
-    </div> 
-    <div class = "form-check">
-        <input class = "form-check-input" type = "checkbox" value = "" name = "date4">
-        <label class = "form-check-label" for = "date4">July 27 - August 7</label>
-    </div> 
+    <div class="form-group">
+    <label for="dateSelect">Date Preference</label>
+    <select class="form-control" name="dateSelect">
+      <option>June 8 - June 19</option>
+      <option>June 15 - June 26</option>
+     <option>July 6 - July 17</option> 
+         <option>July 13 - July 24</option>
+         <option>July 20 - July 31</option>
+        <option> July 27 - August 7 </option>
+    </select>
+  </div> 
     <div class="form-group">
     <label for="timeSelect">Time Preference</label>
     <select class="form-control" name="timeSelect">
